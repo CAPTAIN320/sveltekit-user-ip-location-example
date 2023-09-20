@@ -2,21 +2,35 @@
 
 ## Getting Started
 
+1. Clone the repo
+
 ```bash
 git clone https://github.com/CAPTAIN320/sveltekit-user-ip-location-example.git
 ```
+
+2. Enter the directory
 
 ```bash
 cd sveltekit-user-ip-location-example
 ```
 
+3. Install packages
+
 ```bash
 npm install
 ```
 
+4. Run the app
+
 ```bash
 npm run dev
 ```
+
+(Optional)
+
+5. Create .env file from .env.template.
+
+6. Get API key from ipinfo.io and paste in the .env file.
 
 ### How It Works
 This app uses SvelteKit to create a simple webpage that displays the user's IP address and their estimated location based on that IP. Here's an overview of how it works:

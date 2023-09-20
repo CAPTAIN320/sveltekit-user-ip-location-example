@@ -1,5 +1,4 @@
-<script>
-	import './styles.css';
+<script lang='ts'>
 </script>
 
 <main>

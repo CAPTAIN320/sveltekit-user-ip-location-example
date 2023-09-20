@@ -13,6 +13,7 @@ const GET = async () => {
       status: 200, // OK
       body: {
         clientIP,
+        country,
       },
     };
   } catch (error) {

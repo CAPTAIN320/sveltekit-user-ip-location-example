@@ -1,6 +1,6 @@
 import { SvelteKitAuth } from "@auth/sveltekit";
 
-export let requestIp: any;
+export let requestIp: string;
 
 export const handle = async ({ event, resolve }) => {
   requestIp = event.getClientAddress(); // IP from Client Request

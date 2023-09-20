@@ -30,7 +30,7 @@ npm run dev
 
 5. Create .env file from .env.template.
 
-6. Get API key from ipinfo.io and paste in the .env file.
+6. Get API key from ipinfo.io and paste as IPINFO_API_KEY in the .env file.
 
 ### How It Works
 This app uses SvelteKit to create a simple webpage that displays the user's IP address and their estimated location based on that IP. Here's an overview of how it works:

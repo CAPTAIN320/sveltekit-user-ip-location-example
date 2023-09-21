@@ -14,6 +14,7 @@ export const handle = async ({ event, resolve }) => {
   const authResult: any = await SvelteKitAuth({
     resolve,
   })({ event, resolve });
+  authResult.requestIp = requestIp;
 
   return authResult;
 };
